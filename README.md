@@ -13,3 +13,12 @@ run-as com.termux \
 ```
 edge://flags/#edge-window-tab-manager
 ```
+
+## certbot installer
+
+```
+sudo apt install snapd
+sudo snap install --classic certbot
+sudo ln -s /snap/bin/certbot /usr/bin/certbot
+sudo certbot --nginx
+```
