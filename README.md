@@ -22,3 +22,8 @@ sudo snap install --classic certbot
 sudo ln -s /snap/bin/certbot /usr/bin/certbot
 sudo certbot --nginx
 ```
+### give me my rdp
+
+```sudo chown xrdp:xrdp /etc/xrdp/key.pem /etc/xrdp/cert.pem
+sudo chmod 600 /etc/xrdp/key.pem
+sudo chmod 644 /etc/xrdp/cert.pem```
