@@ -22,8 +22,11 @@ sudo snap install --classic certbot
 sudo ln -s /snap/bin/certbot /usr/bin/certbot
 sudo certbot --nginx
 ```
-### give me my rdp
 
-```sudo chown xrdp:xrdp /etc/xrdp/key.pem /etc/xrdp/cert.pem
-sudo chmod 600 /etc/xrdp/key.pem
-sudo chmod 644 /etc/xrdp/cert.pem```
+## add python3.10 
+```
+sudo apt install software-properties-common -y
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt update
+sudo apt install python3.10 python3.10-dev python3.10-venv -y
+```
