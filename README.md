@@ -33,5 +33,7 @@ sudo apt install python3.10 python3.10-dev python3.10-venv -y
 
 ## нумерование ворд
 ```
+CTRL+F9
 SEQ Table \* Arabic
+F9
 ```
